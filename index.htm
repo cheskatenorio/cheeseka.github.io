@@ -1,55 +1,69 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>BINI Official Website</title>
-    <link href="https://cdn.jsdelivr.net/npm/@picocss/pico@1/css/pico.min.css" rel="stylesheet">
-    <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cosmetics Store</title>
+  <link rel="stylesheet" href="styles1.css">
 </head>
 <body>
-    <nav class="container-fluid">
-        <ul>
-            <li>
-                <img src="https://assets.onecompiler.app/3zb3asy76/42wsma3cm/1000024983.jpg" alt="Logo" style="width: 90px; height: 90px;">
-            </li>
-        </ul>
-        <ul>
-            <li><a href="#services">Profile</a></li>
-            <li><a href="#about">About</a></li>
-            <li><a href="#subscribe">Subscribe</a></li>
-        </ul>
-    </nav>
-    <main class="container">
-        <div class="hero">
-            <img src="https://assets.onecompiler.app/3zb3asy76/42wsma3cm/1000024987.png" alt="BINI Members">     
-        </div>
-        <div class="profile" id="profile">
-            <section>
-                <h2>Profile</h2>
-                <p>Colet, Sheena, Stacey, Aiah, Gwen, Maloi, Mikha, Sheena </p>
-            </section>
-        </div>
-        <div class="about" id="about">
-            <section>
-                <h2>About BINI</h2>
-                <p>BINI is a talented P-pop girl group known for their empowering music and vibrant performances. In late 2023, they released the singles "Karera" and "Pantropiko," which gained significant recognition, particularly "Karera," which became popular at graduation ceremonies, and "Pantropiko," which went viral on TikTok, leading to a dance challenge that millions participated in. Their debut EP, Talaarawan (Diary), released on March 8, 2024, features these hits and emphasizes women's empowerment. BINI achieved remarkable milestones, including reaching over two million monthly listeners on Spotify, becoming the highest-streamed female OPM artist. They made history as the first Filipino artist to top Spotify's Daily Top Artists Philippines chart. BINI also participated in international events, showcasing their talent globally. Their commitment to creativity and community engagement has solidified their place as influential figures in the music industry.</p>
-            </section>
-        </div>
-        <div class="subscribe" id="subscribe">
-            <section>
-                <h2>Subscribe to Our Newsletter</h2>
-                <p>Sign up below for updates about new releases, ticket pre-sales, and exclusive events from BINI.</p>
-                <form>
-                    <input type="text" id="firstname" name="firstname" placeholder="First Name" aria-label="First Name" required>
-                    <input type="email" id="email" name="email" placeholder="Email" aria-label="Email" required>
-                    <button type="submit" onclick="event.preventDefault()">Submit</button>
-                </form>
-            </section>
-        </div>
-    </main>
-    <footer class="container">
-        <p>Anne Cheska T. Tindugan</p>
-    </footer>
+  <!-- Navigation Bar -->
+  <div class="navbar">
+    <a href="#home">Home</a>
+    <a href="#products">Products</a>
+    <a href="#about-us">About Us</a>
+    <a href="#contact">Contact</a>
+  </div>
+
+  <!-- Home Section -->
+  <section id="home" class="section">
+    <h1>Anne Cosmetics</h1>
+    <p>Your one-stop shop for all your beauty and skincare needs. Where beauty meets elegance. We offer a wide range of premium makeup and skincare products designed to enhance your natural beauty. Explore our curated collections and discover the perfect products for your beauty routine.</p>
+  </section>
+
+  <!-- Products Section -->
+  <section id="products" class="section">
+    <h2>Our Products</h2>
+    <div class="gallery">
+      <div class="gallery-item">
+        <img src="https://assets.onecompiler.app/3zb3asy76/432hvzw5z/1000028078.png" alt="Lipstick">
+        <h3>Lipstick</h3>
+      </div>
+      <div class="gallery-item">
+        <img src="https://assets.onecompiler.app/3zb3asy76/432hvzw5z/1000028077.jpg" alt="Foundation">
+        <h3>Foundation</h3>
+      </div>
+      <div class="gallery-item">
+        <img src="https://assets.onecompiler.app/3zb3asy76/432hvzw5z/1000028079.jpg" alt="Eyeshadow">
+        <h3>Eyeshadow</h3>
+      </div>
+      <div class="gallery-item">
+        <img src="https://assets.onecompiler.app/3zb3asy76/432hvzw5z/1000028080.jpg" alt="Mascara">
+        <h3>Mascara</h3>
+      </div>
+      <div class="gallery-item">
+        <img src="https://assets.onecompiler.app/3zb3asy76/432hvzw5z/1000028082.jpg" alt="Highlighter">
+        <h3>Highlighter</h3>
+      </div>
+      <div class="gallery-item">
+        <img src="https://assets.onecompiler.app/3zb3asy76/432hvzw5z/1000028081.jpg" alt="Blush">
+        <h3>Blush</h3>
+      </div>
+    </div>
+  </section>
+
+  <!-- About Us Section -->
+  <section id="about-us" class="section">
+    <h2>About Us</h2>
+    <p>We are a passionate team dedicated to bringing you high-quality cosmetics that enhance your natural beauty. Our mission is to inspire confidence through our carefully curated product range.</p>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact" class="section">
+    <h2>Contact Us</h2>
+    <p>Email: support@cosmeticsstore.com</p>
+    <p>Phone: +123 456 789</p>
+    <p>Address: 123 Beauty Lane, Malabon City</p>
+  </section>
 </body>
 </html>
