@@ -1,83 +1,69 @@
+/* Import Google Fonts for a more beautiful font */
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Lora:wght@400&display=swap');
+
+/* General Body Styling */
 body {
-  background: #d470a2 !important; 
-  color: #000;
+  font-family: 'Lora', serif; 
+  margin: 0;
+  padding: 0;
+  background-color: #cd9fb2; 
+  scroll-behavior: smooth; 
+  color: #5a3d4f; 
 }
 
-nav {
-  background-color: #c54b86; 
-  padding: 10px; 
+/* Navigation bar styling */
+.navbar {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background-color: #cd9fb2; 
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 10px 0;
+  z-index: 1000; 
 }
 
-nav ul {
-  list-style: none; 
-  padding: 0; 
-  margin: 0; 
-}
-
-nav ul li {
-  display: inline;
-  margin-right: 20px; 
-}
-
-nav a {
-  color: white; 
+.navbar a {
   text-decoration: none;
+  color: black;
+  font-size: 17px;
+  font-weight: bold;
+  transition: color 0.3s;
 }
 
-nav a:hover {
-  text-decoration: underline; 
+.navbar a:hover {
+  color: white;
 }
 
-.hero {
-  background-color: #f8d7da; 
-  padding: 50px 20px;
+/* Section Styling */
+.section {
+  padding: 80px 20px; 
+  margin-top: 60px; 
+  background-color: #cd9fb2; 
+}
+
+/* Products Section */
+#products {
+  background-color: #cd9fb2; 
+  padding: 60px 20px;
   text-align: center;
 }
 
-.hero img {
-  display: block;
-  margin: 0 auto;
-  max-width: 100%;
-  height: auto;
+/* About Us and Contact Sections */
+#about-us, #contact {
+  background-color: #cd9fb2; 
+  padding: 60px 20px;
+  text-align: center;
 }
 
-.hero h1 {
-  color: #d63384;
-}
-
-.hero p {
-  color: #dc3545;
-}
-
-.container {
-  padding: 20px;
-}
-
-.profile, .about, .subscribe {
-  background-color: #ffd8f0;
-  padding: 40px 20px;
+/* Headings styling */
+h1, h2 {
+  font-family: 'Playfair Display', serif; 
+  font-size: 36px;
+  color: #5a3d4f; 
   margin-bottom: 20px;
-  border-radius: 10px;
+  letter-spacing: 1px;
 }
 
-.profile h2, .about h2, .subscribe h2 {
-  color: #d63384;
-}
-
-.profile p, .about p, .subscribe p {
-  color: #dc3545;
-}
-
-form button[type="submit"] {
-  background-color: #d63384 !important;
-  color: #fff !important;
-  border: none !important;
-  padding: 10px 20px !important;
-  cursor: pointer !important;
-  border-radius: 5px !important;
-  font-size: 16px !important;
-}
-
-form button[type="submit"]:hover {
-  background-color: #c53075 !important;
-}
+/* Gallery styling */
